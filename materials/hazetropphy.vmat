@@ -1,0 +1,74 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_environment.vfx"
+
+	//---- Wetness ----
+	F_WETNESS 1
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Material1 ----
+	g_flTexCoordRotation1 "0.000"
+	g_vTexCoordCenter1 "[0.500 0.500]"
+	g_vTexCoordOffset1 "[0.000 0.000]"
+	g_vTexCoordScale1 "[1.000 1.000]"
+	TextureAmbientOcclusion1 "materials/default/default_ao.tga"
+	TextureColor1 "materials/hazetrophy.png"
+	TextureHeight1 "materials/default/default_height.tga"
+	TextureMetalness1 "[0.000000 0.000000 0.000000 0.000000]"
+	TextureNormal1 "materials/default/default_normal.tga"
+	TextureRoughness1 "[0.266667 0.266667 0.266667 0.000000]"
+	TextureTintMask1 "materials/default/default_mask.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Wetness ----
+	g_bPuddlesOnVerticalSurfaces "0"
+	g_fPuddleBlendSoftness "0.080"
+	g_fPuddleRoughness "0.020"
+	g_fPuddleSedimentHeight "0.900"
+	g_fPuddleSedimentOpacity "0.250"
+	g_fPuddleStrength "1.000"
+	g_fRainStrength "1.000"
+	g_fRippleStrength "1.000"
+	g_fWetEdgeSpread "0.200"
+	g_fWetEdgeStrength "0.500"
+	g_fWetnessStrength "1.000"
+	g_vPuddleSedimentColor "[0.619608 0.560784 0.501961 0.000000]"
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Material1"
+		{
+			"Color" 0
+			"Tint Mask" 0
+			"Lighting" 0
+			"Height" 0
+			"Texture Transform" 1
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Wetness"
+		{
+		}
+	}
+}
