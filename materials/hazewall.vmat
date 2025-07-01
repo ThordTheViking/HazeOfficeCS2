@@ -19,7 +19,7 @@ Layer0
 	g_vTexCoordOffset1 "[0.000 0.000]"
 	g_vTexCoordScale1 "[1.000 1.000]"
 	TextureAmbientOcclusion1 "materials/default/default_ao.tga"
-	TextureColor1 "materials/hazewall.png"
+	TextureColor1 "materials/hazewall2.png"
 	TextureHeight1 "materials/default/default_height.tga"
 	TextureMetalness1 "materials/default/default_metal.tga"
 	TextureNormal1 "materials/default/default_normal.tga"
