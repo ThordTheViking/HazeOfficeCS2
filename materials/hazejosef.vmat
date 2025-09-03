@@ -4,6 +4,9 @@ Layer0
 {
 	shader "csgo_environment.vfx"
 
+	//---- 2-Sided Rendering ----
+	F_RENDER_BACKFACES 1
+
 	//---- Translucent ----
 	F_ALPHA_TEST 1
 
@@ -42,4 +45,32 @@ Layer0
 	//---- Translucent ----
 	g_flAlphaTestReference "0.500"
 	g_flAntiAliasedEdgeStrength "1.000"
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Material1"
+		{
+			"Color" 0
+			"Tint Mask" 0
+			"Translucent" 0
+			"Lighting" 0
+			"Height" 0
+			"Texture Coordinates" 0
+			"Texture Transform" 1
+			"Snow" 0
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
 }
